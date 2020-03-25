@@ -10,49 +10,142 @@ font-family:'Merriweather', serif;
 .top-container{
 position: relative;
 padding-top: 100px;
-background-color:powderblue;}
+background-color:#EAF6F6;}
 
 
 .cloud1{
 position:absolute;
 right:500px;
 top:20px;}
-
-h1{
-  font-family: 'Sacramento', cursive;
-}
-h2{
-  font-family: 'Montserrat', sans-serif;}
-h3{margin-top:0;
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;}
-
 .cloud2{
 position: absolute;
 left: 500px;
 bottom:300px;
 }
+.proheader{
+color: #66BFBF;
 
+}
+h1{
+  margin:50px auto 0 auto;
+  font-size:5.625rem;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+}
 
+.proheader
+{
+  font-weight:bold;
+    font-size:2.5rem;
+    color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;}
+h2{
+  font-weight: bold;
+    font-size:2.5rem;
+    color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;}
+h3{color:#11999E;
+  margin-top:0;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;}
+.endline{margin-top: 50px;}
+  .btn {
+    background-color: #11999E; /* Green */
+    border:none;
+    border-radius: 7px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    font-family:  'Montserrat', sans-serif;
+    display: inline-block;
+
+    font-size:  1rem;
+    text-decoration: none;
+    margin-top: 50px;
+  }
+.footer-link1{
+  position: absolute;
+  top:30%;
+  left:45%;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+text-decoration: none;
+
+}
+
+.footer-link2{
+  position: absolute;
+  top:30%;
+  right:45%;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+text-decoration: none;
+
+}
 .middle-container{
-
 }
-
 .bottom-container{
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color:#66BFBF;
+margin-top:50px;
+color:white;
+font-size: 10px;
+}
+.copyrght{position:absolute;
+top:60%;
+left:48%; }
+.pic1
+{
+  width:25%;
+  float: left;
+  margin-right:30px;
+
+}
+.pic2
+{
+  width:25%;
+  float: right;
+  margin-left:30px;
 
 }
 
-p{font-}
+
 .pro{text-decoration: underline;}
-.pic{
-  display: block;
- margin-left: auto;
- margin-right: auto;
- width: 20%;
+.skill-row
+{
+ margin: 100px auto 100px auto ;
+ text-align: left;
+ width: 50%;
+ line-height: 2;
 }
+
+
+hr {
+  border-style: none;
+  border-top-style: dotted ;
+  border-top-color: #EAF6F6;
+  border-top-width: 6px;
+  width:3.5%
+}
+
+
+
 .profpic{
   display: block;
  margin-left: auto;
  margin-right: auto;
- width: 10%;
+ width: 30%;
 }
+.profile{width:50%;
+  color: #40514E;
+  margin-left: auto;
+  margin-right: auto;
+line-height: 2;}
+
+/*.skill1-desc{clear:left;}
+.skill2-desc{clear:right;}
